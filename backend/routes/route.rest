@@ -1,0 +1,21 @@
+GET http://localhost:3001/users
+
+###
+
+POST http://localhost:3001/users/username
+
+
+###
+
+POST http://localhost:3001/users
+
+###
+DELETE http://localhost:3001/users/delete/sasas
+###
+
+PATCH http://localhost:3001/users/Alon
+Content-Type: application/json
+
+{
+    "socket": "hi!"
+}
